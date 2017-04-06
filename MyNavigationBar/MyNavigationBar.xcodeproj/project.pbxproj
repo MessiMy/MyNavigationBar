@@ -13,6 +13,9 @@
 		0F2801D51E94E74800678260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2801D31E94E74800678260 /* Main.storyboard */; };
 		0F2801D71E94E74900678260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F2801D61E94E74900678260 /* Assets.xcassets */; };
 		0F2801DA1E94E74900678260 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2801D81E94E74900678260 /* LaunchScreen.storyboard */; };
+		0F2801E71E94EBF000678260 /* UINavigationController+Cloudox.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2801E61E94EBF000678260 /* UINavigationController+Cloudox.m */; };
+		0F2801EA1E94EE2600678260 /* UIViewController+Cloudox.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2801E91E94EE2600678260 /* UIViewController+Cloudox.m */; };
+		0F2F26791E96068700C878B4 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2F26781E96068700C878B4 /* NextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		0F2801D61E94E74900678260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F2801D91E94E74900678260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F2801DB1E94E74900678260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F2801E51E94EBF000678260 /* UINavigationController+Cloudox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Cloudox.h"; sourceTree = "<group>"; };
+		0F2801E61E94EBF000678260 /* UINavigationController+Cloudox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Cloudox.m"; sourceTree = "<group>"; };
+		0F2801E81E94EE2600678260 /* UIViewController+Cloudox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Cloudox.h"; sourceTree = "<group>"; };
+		0F2801E91E94EE2600678260 /* UIViewController+Cloudox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Cloudox.m"; sourceTree = "<group>"; };
+		0F2F26771E96068700C878B4 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		0F2F26781E96068700C878B4 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +69,14 @@
 			children = (
 				0F2801CD1E94E74800678260 /* AppDelegate.h */,
 				0F2801CE1E94E74800678260 /* AppDelegate.m */,
+				0F2801E51E94EBF000678260 /* UINavigationController+Cloudox.h */,
+				0F2801E61E94EBF000678260 /* UINavigationController+Cloudox.m */,
+				0F2801E81E94EE2600678260 /* UIViewController+Cloudox.h */,
+				0F2801E91E94EE2600678260 /* UIViewController+Cloudox.m */,
 				0F2801D01E94E74800678260 /* ViewController.h */,
 				0F2801D11E94E74800678260 /* ViewController.m */,
+				0F2F26771E96068700C878B4 /* NextViewController.h */,
+				0F2F26781E96068700C878B4 /* NextViewController.m */,
 				0F2801D31E94E74800678260 /* Main.storyboard */,
 				0F2801D61E94E74900678260 /* Assets.xcassets */,
 				0F2801D81E94E74900678260 /* LaunchScreen.storyboard */,
@@ -151,7 +166,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F2801E71E94EBF000678260 /* UINavigationController+Cloudox.m in Sources */,
+				0F2F26791E96068700C878B4 /* NextViewController.m in Sources */,
 				0F2801D21E94E74800678260 /* ViewController.m in Sources */,
+				0F2801EA1E94EE2600678260 /* UIViewController+Cloudox.m in Sources */,
 				0F2801CF1E94E74800678260 /* AppDelegate.m in Sources */,
 				0F2801CC1E94E74800678260 /* main.m in Sources */,
 			);
@@ -275,6 +293,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CG4F88GY6X;
 				INFOPLIST_FILE = MyNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.my..MyNavigationBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,6 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CG4F88GY6X;
 				INFOPLIST_FILE = MyNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.my..MyNavigationBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +332,7 @@
 				0F2801E01E94E74900678260 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
